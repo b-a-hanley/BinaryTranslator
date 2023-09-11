@@ -1,5 +1,5 @@
 <?php
-	//base 10 to base 2
+	//base 2 to base 10
 	function b2tob10($init){
 		$count=0;
 		$init=strrev($init);
@@ -25,5 +25,5 @@
 		}
 		return $result;
 	}
-
+	
 ?>
